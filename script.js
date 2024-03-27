@@ -10,6 +10,16 @@
 
 
 
+// let heroes=["spiderman", "superman", "batman", "hulk", "ironman"];
+// console.log(heroes);
+// console.log(heroes.length);
+
+
+
+// Loops over in Array
+// normal loop
+
 let heroes=["spiderman", "superman", "batman", "hulk", "ironman"];
-console.log(heroes);
-console.log(heroes.length);
+for (let index=0; index<heroes.length; index++){
+    console.log(heroes[index]);
+}
