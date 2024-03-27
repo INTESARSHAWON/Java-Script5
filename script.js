@@ -4,3 +4,6 @@ let marks=[45,54,67,87,98,33];
 console.log(marks[3]); //87
 console.log(marks);
 console.log(marks.length);
+// marks[2], eshob diye colsole a value change kora jay array te, string a vuleo jaito na, notun arekta string khola lagto
+// string-> immuateable->change kora jay na
+// array-> mutable-> change kora jay
