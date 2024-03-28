@@ -37,19 +37,29 @@
 
 
 
-let marks=[85,97,44,37,76,60];
+// let marks=[85,97,44,37,76,60];
 
-sum=0;
+// sum=0;
 
-for (let value of marks){
-    sum=sum+value;
-    //console.log(sum);
- }
- let average= sum/marks.length;
- console.log(`average marks of the class is ${average}`);
+// for (let value of marks){
+//     sum=sum+value;
+//     //console.log(sum);
+//  }
+//  let average= sum/marks.length;
+//  console.log(`average marks of the class is ${average}`);
 // let totalMarks=85+97+44+37+76+60;
 // let averageMarks=totalMarks/6;
 // console.log(averageMarks);
 
+
+
+
+let marks=[85,97,44,37,76,60];
+let sum=0;
+for(let i=0; i<marks.length;i++){
+    sum= sum+ marks[i];
+}
+let average= sum/ marks.length;
+console.log(`the average mark of the class is ${average}`);
 
 
