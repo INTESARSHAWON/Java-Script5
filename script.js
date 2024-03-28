@@ -23,3 +23,16 @@
 // for (let index=0; index<heroes.length; index++){
 //     console.log(heroes[index]);
 // }
+
+
+
+
+// for of loop
+let heroes=["spiderman", "superman", "batman", "hulk", "ironman"];
+
+for (hero of heroes){
+    console.log(hero.toUpperCase());
+}
+
+
+
