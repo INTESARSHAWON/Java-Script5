@@ -65,11 +65,26 @@
 
 
 
-let marks=[85,97,44,37,76,60];
+// let marks=[85,97,44,37,76,60];
+
+// for(let i=0; i<marks.length;i++){
+//     let extra= marks[i]+10;
+//     console.log(extra);
+
+// }
+
+
+
+
+let marks=[85,100,44,37,76,60];
 
 for(let i=0; i<marks.length;i++){
-    let extra= marks[i]+10;
-    console.log(extra);
-
+    extra= marks[i]/10;
+    let newmarks= marks[i]+extra;
+    console.log(`After adding 10% number with each number, the mark is ${newmarks}`);
 }
+
+
+
+
 
