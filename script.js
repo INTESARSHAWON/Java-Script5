@@ -19,7 +19,7 @@
 // Loops over in Array
 // normal loop
 
-let heroes=["spiderman", "superman", "batman", "hulk", "ironman"];
-for (let index=0; index<heroes.length; index++){
-    console.log(heroes[index]);
-}
+// let heroes=["spiderman", "superman", "batman", "hulk", "ironman"];
+// for (let index=0; index<heroes.length; index++){
+//     console.log(heroes[index]);
+// }
