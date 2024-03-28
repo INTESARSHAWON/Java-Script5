@@ -54,12 +54,22 @@
 
 
 
-let marks=[85,97,44,37,76,60];
-let sum=0;
-for(let i=0; i<marks.length;i++){
-    sum= sum+ marks[i];
-}
-let average= sum/ marks.length;
-console.log(`the average mark of the class is ${average}`);
+// let marks=[85,97,44,37,76,60];
+// let sum=0;
+// for(let i=0; i<marks.length;i++){
+//     sum= sum+ marks[i];
+// }
+// let average= sum/ marks.length;
+// console.log(`the average mark of the class is ${average}`);
 
+
+
+
+let marks=[85,97,44,37,76,60];
+
+for(let i=0; i<marks.length;i++){
+    let extra= marks[i]+10;
+    console.log(extra);
+
+}
 
