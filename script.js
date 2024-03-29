@@ -130,3 +130,8 @@ fruits.unshift("banana", "lemon", "watermelon", "jackfruit");
 //ebar shift korbo, shift return value o dey...,shift shuru theke hoy, etai pop er sathe er parthoko, array change kore fele eigula...,
 console.log(fruits);
 
+let deletedFruits= fruits.shift();
+console.log("deleted fruits=",deletedFruits);
+console.log(fruits);
+
+
