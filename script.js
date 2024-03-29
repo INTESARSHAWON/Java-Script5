@@ -97,12 +97,23 @@
 
 
 
-let items=[250,645,300,900,50];
+// let items=[250,645,300,900,50];
 
-for (let value of items){
-    let offer= value/10;
-    value= value-offer;
-    console.log(value);
-}
+// for (let value of items){
+//     let offer= value/10;
+//     value= value-offer;
+//     console.log(value);
+// }
+
+
+
+
+//array methods
+
+let fruits=["apple", "orange", "grape", "palm", "guava"];
+
+fruits.push("banana", "lemon", "watermelon", "jackfruit");
+//eigula sob last a push hoise,ebar pop korbo, pop last theke hoy, pop return value-o dey..., array change kore fele eigula...,
+console.log(fruits);
 
 
