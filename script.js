@@ -76,15 +76,22 @@
 
 
 
-let marks=[85,100,44,37,76,60];
+// let marks=[85,100,44,37,76,60];
 
-for(let i=0; i<marks.length;i++){
-    extra= marks[i]/10;
-    let newmarks= marks[i]+extra;
-    console.log(`After adding 10% number with each number, the mark is ${newmarks}`);
+// for(let i=0; i<marks.length;i++){
+//     extra= marks[i]/10;
+//     let newmarks= marks[i]+extra;
+//     console.log(`After adding 10% number with each number, the mark is ${newmarks}`);
+// }
+
+
+
+
+let items=[250,645,300,900,50];
+
+for (let i=0; i<items.length; i++){
+     let offer= items[i]/10;
+     let newprice= items[i]- offer;
+     console.log(`after 10% of discount, the price is ${newprice}`);
 }
-
-
-
-
 
