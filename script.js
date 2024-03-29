@@ -116,4 +116,7 @@ fruits.push("banana", "lemon", "watermelon", "jackfruit");
 //eigula sob last a push hoise,ebar pop korbo, pop last theke hoy, pop return value-o dey..., array change kore fele eigula...,
 console.log(fruits);
 
+let deletedFruits= fruits.pop();
+console.log("deleted fruits=",deletedFruits);
+console.log(fruits);
 
