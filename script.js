@@ -87,11 +87,22 @@
 
 
 
+// let items=[250,645,300,900,50];
+
+// for (let i=0; i<items.length; i++){
+//      let offer= items[i]/10;
+//      let newprice= items[i]- offer;
+//      console.log(`after 10% of discount, the price is ${newprice}`);
+// }
+
+
+
 let items=[250,645,300,900,50];
 
-for (let i=0; i<items.length; i++){
-     let offer= items[i]/10;
-     let newprice= items[i]- offer;
-     console.log(`after 10% of discount, the price is ${newprice}`);
+for (let value of items){
+    let offer= value/10;
+    value= value-offer;
+    console.log(value);
 }
+
 
