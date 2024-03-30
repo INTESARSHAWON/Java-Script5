@@ -123,15 +123,15 @@
 
 
 
-let fruits=["apple", "orange", "grape", "palm", "guava"];
+// let fruits=["apple", "orange", "grape", "palm", "guava"];
 
-fruits.unshift("banana", "lemon", "watermelon", "jackfruit");
-//eigula sob shurute geche, etai push er sathe unshift er parthokkho
-//ebar shift korbo, shift return value o dey...,shift shuru theke hoy, etai pop er sathe er parthoko, array change kore fele eigula...,
-console.log(fruits);
+// fruits.unshift("banana", "lemon", "watermelon", "jackfruit");
+// //eigula sob shurute geche, etai push er sathe unshift er parthokkho
+// //ebar shift korbo, shift return value o dey...,shift shuru theke hoy, etai pop er sathe er parthoko, array change kore fele eigula...,
+// console.log(fruits);
 
-let deletedFruits= fruits.shift();
-console.log("deleted fruits=",deletedFruits);
-console.log(fruits);
+// let deletedFruits= fruits.shift();
+// console.log("deleted fruits=",deletedFruits);
+// console.log(fruits);
 
 
