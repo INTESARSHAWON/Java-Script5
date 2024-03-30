@@ -135,3 +135,7 @@
 // console.log(fruits);
 
 
+
+let fruits=["apple", "orange", "grape", "palm", "guava"];
+console.log("show all fruits=",fruits); 
+
