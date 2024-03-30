@@ -141,6 +141,8 @@ console.log("show all fruits=",fruits);
 // // splice (startidx, delcount, new element)
 console.log ("show deleted fruits",fruits.splice(1,3,"watermelon", "mango"));
 console.log("show fruits after splice with replacemnt=",fruits);
+// // splice diye jekono jaygay kichu add kora jabe, kono ekta jinish delete kora jabe, replace kora jabe
+// // push(), pop () last a kaj kore, unshift(), shift() prothome kaj kore, splice jekono jaygay kaj kore
 
 
 
