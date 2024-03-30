@@ -140,6 +140,7 @@ let fruits=["apple", "orange", "grape", "palm", "guava"];
 console.log("show all fruits=",fruits); 
 // // splice (startidx, delcount, new element)
 console.log ("show deleted fruits",fruits.splice(1,3,"watermelon", "mango"));
+console.log("show fruits after splice with replacemnt=",fruits);
 
 
 
