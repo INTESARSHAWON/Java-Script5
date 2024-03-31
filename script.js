@@ -146,10 +146,10 @@
 
 
 
-let fruits=["apple", "orange", "grape", "palm", "guava"];
-console.log(fruits); 
-console.log (fruits.slice(1,4));
-// fruits.slice() eta string jemne slice kore omnei slice kore jottuk dorkar dekhay 
+// let fruits=["apple", "orange", "grape", "palm", "guava"];
+// console.log(fruits); 
+// console.log (fruits.slice(1,4));
+// // fruits.slice() eta string jemne slice kore omnei slice kore jottuk dorkar dekhay 
 
 
 
