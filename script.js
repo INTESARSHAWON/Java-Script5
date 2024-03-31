@@ -162,6 +162,8 @@ console.log("the removing companies=", delCompanies);
 console.log("after removing the first companies=", companies);
 companies.splice(1,1,"Ola");
 console.log("after removing uber and add ola=", companies);
+companies.push("Amazon");
+console.log("after adding Amazon=", companies);
 
 
 
