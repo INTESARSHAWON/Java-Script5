@@ -171,13 +171,23 @@
 // console.log(fruits); // array print hoise, 
 // console.log(fruits.toString()); //string akare print hoise, etai fruits.toString() er kaj 
 
-let fruits=["apple", "orange", "grape", "palm", "guava"];
-console.log(fruits); // array print hoise, eta etar motoi thakbe, string a convert hobe na
-let newfruits= fruits.toString(); //string akare convert kore setake arekta jaygay rakhtesi 
-console.log (newfruits); //string akare print hoise, etai fruits.toString() er kaj
+// let fruits=["apple", "orange", "grape", "palm", "guava"];
+// console.log(fruits); // array print hoise, eta etar motoi thakbe, string a convert hobe na
+// let newfruits= fruits.toString(); //string akare convert kore setake arekta jaygay rakhtesi 
+// console.log (newfruits); //string akare print hoise, etai fruits.toString() er kaj
 
 
 
+let fruits1=["apple", "orange", "grape", "palm", "guava"];
+let fruits2=["banana", "lemon", "watermelon", "jackfruit"];
+let fruits3=["dates", "mango"];
+let allfruits= fruits1.concat(fruits2,fruits3); //evabe lakh lakh jinish jora lagano jay
+console.log (allfruits);
+//concat() string er moto array o jora lagay...,array te change ane na, notun ek jaygay jog kore
+console.log (fruits1);
+console.log (fruits2);
+console.log (fruits3);
+//ei duita ager motoi thakbe, concat() change kore nai
 
 
 
