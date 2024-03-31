@@ -154,16 +154,23 @@
 
 
 // push(),pop(),unshift(),shift(),spice()-- eigular excercise
+// let companies=["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+// console.log("all the companies=", companies);
+// let delCompanies= companies.shift();
+// console.log("the removing companies=", delCompanies);
+// console.log("after removing the first companies=", companies);
+// companies.splice(1,1,"Ola");
+// console.log("after removing uber and add ola=", companies);
+// companies.push("Amazon");
+// console.log("after adding Amazon=", companies);
 
-let companies=["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
-console.log("all the companies=", companies);
-let delCompanies= companies.shift();
-console.log("the removing companies=", delCompanies);
-console.log("after removing the first companies=", companies);
-companies.splice(1,1,"Ola");
-console.log("after removing uber and add ola=", companies);
-companies.push("Amazon");
-console.log("after adding Amazon=", companies);
+
+
+
+let fruits=["apple", "orange", "grape", "palm", "guava"];
+console.log(fruits); // array print hoise, 
+console.log(fruits.toString()); //string akare print hoise, etai fruits.toString() er kaj 
+
 
 
 
