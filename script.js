@@ -153,3 +153,13 @@
 
 
 
+// push(),pop(),unshift(),shift(),spice()-- eigular excercise
+
+let companies=["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+console.log("all the companies=", companies);
+
+
+
+
+
+
