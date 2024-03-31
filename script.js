@@ -157,6 +157,9 @@
 
 let companies=["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
 console.log("all the companies=", companies);
+let delCompanies= companies.shift();
+console.log("the removing companies=", delCompanies);
+console.log("after removing the first companies=", companies);
 
 
 
