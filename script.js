@@ -167,10 +167,14 @@
 
 
 
-let fruits=["apple", "orange", "grape", "palm", "guava"];
-console.log(fruits); // array print hoise, 
-console.log(fruits.toString()); //string akare print hoise, etai fruits.toString() er kaj 
+// let fruits=["apple", "orange", "grape", "palm", "guava"];
+// console.log(fruits); // array print hoise, 
+// console.log(fruits.toString()); //string akare print hoise, etai fruits.toString() er kaj 
 
+let fruits=["apple", "orange", "grape", "palm", "guava"];
+console.log(fruits); // array print hoise, eta etar motoi thakbe, string a convert hobe na
+let newfruits= fruits.toString(); //string akare convert kore setake arekta jaygay rakhtesi 
+console.log (newfruits); //string akare print hoise, etai fruits.toString() er kaj
 
 
 
